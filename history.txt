@@ -1,0 +1,77 @@
+all previous code---->
+// const http = require('http');
+// const data= require('./data');
+//  http.createServer((req,resp)=>{
+//  resp.writeHead(404,{'Content-Type':'application\json'});
+//  resp.write(JSON.stringify(data));
+//  resp.end();
+//  }).listen(4500);
+// console.log('Keep smiling')
+// const fs= require('fs');
+// const input = process.argv;
+// if(input[2]=='add')
+// {
+//     fs.writeFileSync(input[3],input[4]);
+// }
+// else if(input[2]=='remove')
+// {
+//    fs.unlinkSync(input[3]);
+// }
+// else{
+//     console.log('invalid input')
+// }
+// const fs=require('fs');
+// const path=require('path');
+// const dirPath= path.join(__dirname,'files');
+// for (i=0;i<5;i++)
+// {
+//     fs.unlinkSync('filesmyfile'+i+'.txt');
+//     fs.unlinkSync('myfile'+i+'.txt');    
+// }
+// for(i=0;i<5;i++)
+// {
+//     fs.writeFileSync(dirPath+'/myfile'+i+'.txt','i am happy');
+// }
+// fs.readdir(dirPath,(err,files)=>{
+//     files.forEach((item)=> {
+//         console.log(item);
+//     })
+
+// });
+// const fs = require('fs');
+// fs.writeFileSync('history.txt','all previous code');
+let a=10;
+// let b=0;
+// let waitingData= new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//    resolve(30)
+// },1000)
+// })
+// waitingData.then((data)=>{
+//     b=data
+//     console.log(a+b)
+// })
+// console.log('happy')
+
+
+
+// const express=require('express')
+// const app=express()
+// const reqfilter=require('./middleware')
+// const route=express.Router()
+// route.use(reqfilter)
+// //app.use(reqFilter)
+// app.get('/',(req,resp)=>{
+//  resp.send('Welcome,to home page')
+// })
+// app.get('/users',(req,resp)=>{
+//  resp.send('Welcome,users')
+// })
+// route.get('/about',(req,resp)=>{
+//  resp.send('About Page')
+// })
+// route.get('/contact',(req,resp)=>{
+//  resp.send('Contact Page')
+// })
+// app.use('/',route)
+// app.listen(1700)
